@@ -1,0 +1,21 @@
+#map {
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
