@@ -1,0 +1,25 @@
+1. Creación de la Página Web con el Mapa Centrado
+Se generó un archivo HTML que carga un mapa interactivo con Leaflet.
+Se estableció el centro del mapa en las coordenadas (4.570438, -74.143926) con un zoom de 13.
+Se agregó la capa base de OpenStreetMap para visualizar el fondo del mapa.
+2. Incorporación de Geoman para Dibujar en el Mapa
+Se integró la librería Geoman para permitir la creación de polígonos, líneas y puntos.
+Se añadieron botones de dibujo:
+Dibujar Polígono
+Dibujar Línea
+Dibujar Punto
+Se eliminaron herramientas innecesarias (como borrar dibujos).
+3. Implementación de los Botones de Funcionalidad
+Se redujo el número de botones a los necesarios:
+Árboles
+Distancia
+Homicidios
+Se estableció un estilo uniforme para los botones con CSS.
+4. Carga de Datos GeoJSON desde un Archivo Externo
+Se intentó cargar un archivo GeoJSON con la información de árboles desde Google Drive.
+Para resolver problemas de acceso, se recomendó:
+Colocar el archivo en un servidor accesible públicamente.
+Utilizar un servidor local (Ejemplo: Python SimpleHTTPServer o Live Server en VS Code).
+Subir el archivo a GitHub Pages o a un servicio como GeoServer.
+5. Aplicación de un Filtro Espacial (Rango de 3 km)
+Se aplicó un filtro utilizando Turf.js para mostrar únicamente los árboles dentro de un radio de 3 km desde el punto central.
